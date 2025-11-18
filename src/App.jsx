@@ -14,7 +14,7 @@ import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
 import Heroe from "./components/Heroe";
 import Testemonials from "./components/Testemonials";
-import { testimonials } from "./Constants";
+import { testimonials } from "./components/Constants";
 
 function App() {
   return (
