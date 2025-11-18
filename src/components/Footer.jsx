@@ -180,7 +180,7 @@ return(
                 }}
             >
                 <Typography sx={{ opacity: 0.9 }}>
-                    © {new Date().getFullYear()} Your Blog — All rights reserved
+                    © {new Date().getFullYear()} Blog Made By Sekouti Abdelaziz — All rights reserved
                 </Typography>
 
                 <Box sx={{ display: 'flex', gap: 1, alignItems: 'center' }}>
