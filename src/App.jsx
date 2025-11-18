@@ -13,7 +13,9 @@ import Article from "./components/Article";
 import Blogs from "./components/Blogs";
 import Footer from "./components/Footer";
 import Heroe from "./components/Heroe";
-import Testemonials, { testimonials } from "./components/Testemonials";
+import Testemonials from "./components/Testemonials";
+import { testimonials } from "./Constants";
+
 function App() {
   return (
     <div style={{ background: "#c8e8ff", minHeight: "100vh" }}>
