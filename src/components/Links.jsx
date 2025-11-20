@@ -154,7 +154,7 @@ function Links() {
             <MenuIcon />
           </IconButton>
           <Menu open={Boolean(anchor)} onClose={closeMenu} keepMounted anchorEl={anchor} sx={{
-            marginTop:'50px',
+            marginTop:'50px',display:{md:'none',xs:'block'}
           }} id='menu'>
             <MenuList sx={{
             marginTop:'0px',
