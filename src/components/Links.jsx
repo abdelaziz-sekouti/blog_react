@@ -151,19 +151,20 @@ function Links() {
           }}
         >
           {/* hamburger button trigging mobile menu */}
-          <IconButton size="large" sx={{position:'absolute',right:'20px',top:'10px',fontSize:'40px'}} edge="end" color="inherit" aria-label="menu" onClick={handleMenu}>
+          <IconButton size="large" sx={{position:'absolute',right:'20px',top:'50%',transform:'translateY(-50%)',fontSize:'30px',fontWeight:'bolder'}} edge="end" color="inherit" aria-label="menu" onClick={handleMenu}>
             <MenuIcon />
           </IconButton>
           <Menu open={Boolean(anchor)} onClose={closeMenu} keepMounted anchorEl={anchor} sx={{
-            marginTop:'50px',display:{md:'none',xs:'block'}
+            marginTop:'50px', textAlign:'center',display:{md:'none',xs:'block'}
           }} id='menu'>
             <MenuList sx={{
             marginTop:'0px',
-            width:{xs:'100vw',md:'50vw'},
+            width:'100vw',
             color:'#333232ff',
+            textAlign:'center',
           }}>
               <MenuItem>
-                <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+                <Link to="/" style={{ textDecoration: "none", color: "inherit", }}>
                   <Button
                     sx={{
                       fontWeight: "bold",
