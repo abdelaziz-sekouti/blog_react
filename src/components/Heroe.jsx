@@ -17,11 +17,12 @@ const Heroe = ({
     position: "relative",
     width: "100%",
     height: height,
-    // overflow: 'hidden',
+    overflow: "hidden",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
     color: "#fff",
+    marginBottom: "20px",
   };
 
   const videoStyle = {

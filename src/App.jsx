@@ -15,27 +15,27 @@ import Footer from "./components/Footer";
 import Heroe from "./components/Heroe";
 import Testemonials from "./components/Testemonials";
 import { testimonials } from "./components/Constants";
-
 function App() {
+  
   return (
-    <div style={{ background: "#c8e8ff", minHeight: "100vh" }}>
-      <Header />
-      <Heroe />
-      <ToastContainer position="top-center" autoClose={300} />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/blog_react" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/login" element={<Login />}></Route>
-        <Route path="/signup" element={<Signup />}></Route>
-        <Route path="/add-blog" element={<AddBlog />}></Route>
-        <Route path="/blogs/:id" element={<Article />}></Route>
-        <Route path="/blogs/" element={<Blogs />}></Route>
-      </Routes>
-      <Testemonials testimonials={testimonials} />
-      <Footer />
-    </div>
+      <div style={{ background: "#c8e8ff", minHeight: "100vh" }}>
+        <Header />
+        <Heroe />
+        <ToastContainer position="top-center" autoClose={300} />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/blog_react" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/signup" element={<Signup />}></Route>
+          <Route path="/add-blog" element={<AddBlog />}></Route>
+          <Route path="/blogs/:id" element={<Article />}></Route>
+          <Route path="/blogs/" element={<Blogs />}></Route>
+        </Routes>
+        <Testemonials testimonials={testimonials} />
+        <Footer />
+      </div>
   );
 }
 

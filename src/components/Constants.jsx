@@ -34,7 +34,7 @@ export const testimonials = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Maya Chen",
     role: "UX Designer",
     text: "Useful perspectives on design and accessibility — a go-to resource for our team.",
@@ -43,7 +43,7 @@ export const testimonials = [
   },
 
   {
-    id: 4,
+    id: 6,
     name: "Maya Chen",
     role: "UX Designer",
     text: "Useful perspectives on design and accessibility — a go-to resource for our team.",
