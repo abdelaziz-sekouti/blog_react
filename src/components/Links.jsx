@@ -25,7 +25,7 @@ function Links() {
       style={{
         display: "flex",
         alignItems: "center",
-        width: "100vh",
+        width: "100vw",
         justifyContent: "space-between",
       }}
       >
@@ -49,7 +49,7 @@ function Links() {
             Blog
           </Link>
         </Typography>
-
+          {/*  desktop menu */}
         <Box
           sx={{
             alignItems: "center",
@@ -59,7 +59,7 @@ function Links() {
             display: { md: "flex", xs: "none" },
           }}
         >
-          <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
             <Button
               sx={{ fontWeight: "bold", fontFamily: "Roboto", fontSize: "17px" }}
               color="inherit"
@@ -140,7 +140,7 @@ function Links() {
             </Button>
           </Link>
         </Box>
-          
+          {/* mobile menu */}
         <Box
           sx={{
             alignItems: "center",
@@ -150,6 +150,7 @@ function Links() {
             display: { md: "none", xs: anchor ? "none" : "flex" },
           }}
         >
+          {/* hamburger button trigging mobile menu */}
           <IconButton size="large" sx={{position:'absolute',right:'20px',top:'10px',fontSize:'40px'}} edge="end" color="inherit" aria-label="menu" onClick={handleMenu}>
             <MenuIcon />
           </IconButton>
