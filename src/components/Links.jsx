@@ -38,7 +38,7 @@ function Links() {
             fontWeight: "bold",
             fontFamily: "Roboto",
             fontSize: "38px",
-            paddingLeft:'70px',
+            paddingLeft:'20px',
             // textShadow: "2px 2px 4px rgba(237, 8, 8, 0.51)",
             textShadow: "0 4px 18px rgba(0,0,0,0.45)",
             transition: "all .3s",
