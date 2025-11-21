@@ -7,6 +7,9 @@ function Home() {
   return (
      
       <>
+      <Container maxWidth="md" sx={{ py: 6 }}>
+        
+      </Container>
       <Blogs />
       </>
   )
